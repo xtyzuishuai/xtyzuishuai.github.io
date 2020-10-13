@@ -1,14 +1,11 @@
-# -*- coding: UTF-8 -*-
-#coding=utf-8
-
 import matplotlib.pyplot as plt
 import numpy as np 
 fig = plt.figure(figsize=(6, 4))
 ax1 = fig.add_subplot(111)
 x = np.linspace(-3,3,100)
 y = np.exp(x)
-plt.rcParams['font.sans-serif']=['SimHei'] #加上这一句就能在图表中显示中文
-plt.rcParams['axes.unicode_minus']=False #用来正常显示负号
+plt.rcParams['font.sans-serif']=['SimHei'] 
+plt.rcParams['axes.unicode_minus']=False 
 plt.title(r'$f(x)=e^x$') 
 ax1.spines['right'].set_color('none')
 ax1.spines['top'].set_color('none')

@@ -1,6 +1,3 @@
-# -*- coding: UTF-8 -*-
-#coding=utf-8
-
 import matplotlib.pyplot as plt
 import numpy as np 
 fig = plt.figure(figsize=(6, 4))
